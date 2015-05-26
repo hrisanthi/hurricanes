@@ -1,0 +1,95 @@
+.container{
+    min-width: 800px;
+}
+
+
+.holder{
+    height: 80%;
+    width: 80%;
+    position: relative;
+}
+
+.hurricane{
+  width: 50%;
+  height: 50%;
+}
+
+
+.hazel, .connie, .donna, .donna2, .donna3, .camille, .diana, .hugo, .andrew, .andrew2, .fran, .floyd, .katrina, .katrina2{
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 15px;
+}
+
+
+.hazel{
+    top: 20%;
+    right: 38%;
+}
+
+.connie{
+    top: 18%;
+    right: 41%;
+}
+
+.donna{
+    top:18%;
+    right: 36%;
+}
+
+.donna2{
+    top:49%;
+    right: 44%;
+}
+
+.donna3{
+    top:46%;
+    right: 47%;
+}
+
+.camille{
+    top: 32%;
+    right: 70%;
+}
+
+.diana{
+    top: 20%;
+    right: 35%;
+
+}
+
+.hugo{
+    top: 23%;
+    right: 41%;
+}
+
+.andrew{
+    top: 47%;
+    right: 41%;
+}
+
+.andrew2{
+    top: 33%;
+    right: 79%;
+}
+
+.fran{
+    top: 20%;
+    right: 33%;
+}
+
+.floyd{
+    top: 18%;
+    right: 39%;
+}
+
+.katrina{
+    top: 34%;
+    right: 70%;
+}
+
+.katrina2{
+    top: 45%;
+    right: 40%;
+}
