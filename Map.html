@@ -20,8 +20,11 @@
   $(document).ready(function(){
     $(function(){
        $('.balloon').balloon({
-        position: "right",
-        hideDuration: 0,
+         tipsize: 0,
+         position: 'right',
+        css:{
+          width: '300px',
+        }
 
         });
     });
@@ -32,79 +35,173 @@
 <body>
 
   <div class="container">
-  <h1>Hurrican</h1>
-  <p>The U.S. Weather Bureau began naming tropical storms in 1950. Since then, more than 100 named storms have struck the United States. Here are some notabel storms with emphasis given to those affecting the Cape Fear region.</p>
+    <div class="row">
+      <div class="col-md-12">
+  <h1>Hurricane</h1>
+  <p>The U.S. Weather Bureau began naming tropical storms in 1950. Since then, more than 100 named storms have struck
+    the United States. Here are some notabel storms with emphasis given to those affecting the Cape Fear region.</p>
+</div>
+</div>
+
+
+
+
+<div class="row">
+  <div class="col-md-8">
     <div class="holder">
-      <img class="map" src="images/mapcut.png">
-        <i class="hazel balloon" title="<img class= 'hurricane' src='images/Hazel.jpg'>
-          Hazel, Oct. 15, 1954, Little River, S.C.: Top winds were estimated at 130-150 mph near Cape Fear. A storm surge of 18 feet swamped the coast. Wind gusts of 110
+      <img class="map" width="100%" height="100%" src="images/mapbig.png">
+        <i class="hazel balloon"  title="<img class= 'hurricane' src='images/Hazel.jpg'></br>
+          <strong>Hazel, Oct. 15, 1954, Little River, S.C.: </strong></br>Top winds were estimated at 130-150 mph near Cape Fear. A storm surge of 18 feet swamped the coast. Wind gusts of 110
           mph were recorded in Fayetteville, with sustained hurricane force winds reaching Canada. The storm killed 95 people in the U.S. and 1,000
           more in Hatti."></i>
 
-        <i class="connie balloon" title="<img class= 'hurricane' src='images/connie_diane.jpg'>
-          Connie and Diane, August 1955, Fort Macon: Two hurricanes hit the coast within a week of each other.
+        <i class="connie balloon" title="<img class= 'hurricane' src='images/connie_diane.jpg'></br>
+          <strong>Connie and Diane, August 1955, Fort Macon: </strong></br>Two hurricanes hit the coast within a week of each other.
           Connie set the stage for devastating flooding by Diane. Rain, rather than wind, was the story as Diane
           dumped up to 20 inches on top of 12 inches by Connie. The death toll topped 250."></i>
 
-        <i class="donna balloon" title="<img class= 'hurricane' src='images/donna.jpg'>
-          Donna, Sept. 10, 1960, Marathon, Fla., Napels, Fla., Topsail Beach, and Long Island N.Y.: Donna terrorized the
+        <i class="donna balloon" title="<img class= 'hurricane' src='images/donna.jpg'></br>
+          <strong>Donna, Sept. 10, 1960, Marathon, Fla., Napels, Fla., Topsail Beach, and Long Island N.Y.: </strong></br>Donna terrorized the
           entire East Coast, making four landfalls and pushing wind gusts of 180 mph. It remained a hurricane for the entire U.S. journey,
           killing more than 360 people along the way."></i>
 
-        <i class="donna2 balloon" title="<img class= 'hurricane' src='images/donna.jpg'>
-          Donna, Sept. 10, 1960, Marathon, Fla., Napels, Fla., Topsail Beach, and Long Island N.Y.: Donna terrorized the
+        <i class="donna2 balloon" title="<img class= 'hurricane' src='images/donna.jpg'></br>
+          <strong>Donna, Sept. 10, 1960, Marathon, Fla., Napels, Fla., Topsail Beach, and Long Island N.Y.: </strong></br>Donna terrorized the
           entire East Coast, making four landfalls and pushing wind gusts of 180 mph. It remained a hurricane for the entire U.S. journey,
           killing more than 360 people along the way."></i>
 
-        <i class="donna3 balloon" title="<img class= 'hurricane' src='images/donna.jpg'>
-          Donna, Sept. 10, 1960, Marathon, Fla., Napels, Fla., Topsail Beach, and Long Island N.Y.: Donna terrorized the
+        <i class="donna3 balloon" title="<img class= 'hurricane' src='images/donna.jpg'></br>
+          <strong>Donna, Sept. 10, 1960, Marathon, Fla., Napels, Fla., Topsail Beach, and Long Island N.Y.: </strong></br>Donna terrorized the
           entire East Coast, making four landfalls and pushing wind gusts of 180 mph. It remained a hurricane for the entire U.S. journey,
           killing more than 360 people along the way."></i>
 
-        <i class="camille balloon" title="<img class= 'hurricane' src='images/camille.jpg'>
-          Camille, Aug. 17, 1969, Pass Christian, Miss: One of only two named Category 5 hurricanes at U.S. landfall,
+        <i class="camille balloon" title="<img class= 'hurricane' src='images/camille.jpg'></br>
+          <strong>Camille, Aug. 17, 1969, Pass Christian, Miss: </strong></br>One of only two named Category 5 hurricanes at U.S. landfall,
         Camille pushed a storm surge of nearly 25 feet into the Gulf lowland with top sustained winds of 190 mph. A combination of wind,
         storm surge and torrential inland rainfall caused 265 deaths - more than 100 of those in Virginia flooding."></i>
 
-        <i class="diana balloon" title="Diana, Sept. 13, 1984, Wilmington:
+        <i class="diana balloon" title="<strong>Diana, Sept. 13, 1984, Wilmington:</strong></br>
           What would have been the strongest hurricane since Hazel to hit the Carolinas, Diana lingered offshore for
           two days, weakening as it churned up cooler water. It came ashore as a Category 2 storm, dropping nearly 20 inches
            of rain on Southport."></i>
 
-        <i class="hugo balloon" title="<img class= 'hurricane' src='images/hugo.JPG'>
-          Hugo, Spet. 22, 1989, Isle of Pams, S.C.:
+        <i class="hugo balloon" title="<img class= 'hurricane' src='images/hugo.JPG'></br>
+          <strong>Hugo, Spet. 22, 1989, Isle of Pams, S.C.:</strong></br>
           A compact Category 4 hurrican, Hugo was briefly a Category 5 storm before coming ashore with 120-mph wind
           gusts and a 20-foot storm surge. It caused more than $1 billion damages in North Carolina, hitting the
           Charlotte area especially hard."></i>
 
-        <i class="andrew balloon" title="<img class= 'hurricane' src='images/andrew.JPG'>
-          Andrew, Aug. 24, 1992, Homestead, Fla., and Burns Point, La.: Andrew, the other named Category 5 storm at landfall,
+        <i class="andrew balloon" title="<img class= 'hurricane' src='images/andrew.JPG'></br>
+          <strong>Andrew, Aug. 24, 1992, Homestead, Fla., and Burns Point, La.: </strong></br>Andrew, the other named Category 5 storm at landfall,
           Andrew hit just south of Miami with winds of 155 mph. Until Katrina, more than 20 years later, it was the costliest storm
           with more than $10 billion in damage. A task force from 82nd Airborn Division deployed to South Florida to provide assistance for a month."></i>
 
-        <i class="andrew2 balloon" title="<img class= 'hurricane' src='images/andrew2.JPG'>
-          Andrew, Aug. 24, 1992, Homestead, Fla., and Burns Point, La.: Andrew, the other named Category 5 storm at landfall,
+        <i class="andrew2 balloon" title="<img class= 'hurricane' src='images/andrew2.JPG'></br>
+          <strong>Andrew, Aug. 24, 1992, Homestead, Fla., and Burns Point, La.: </strong></br>Andrew, the other named Category 5 storm at landfall,
           Andrew hit just south of Miami with winds of 155 mph. Until Katrina, more than 20 years later, it was the costliest storm
           with more than $10 billion in damage. A task force from 82nd Airborn Division deployed to South Florida to provide assistance for a month."></i>
 
-        <i class="fran balloon" title="<img class= 'hurricane' src='images/fran.JPG'>
-          Fran, Spet. 6, 1996, Cape Fear: One of two storms to bring hurricane-force winds to Fayetteville (Hazel was the other),
+        <i class="fran balloon" title="<img class= 'hurricane' src='images/fran.JPG'></br>
+          <strong>Fran, Spet. 6, 1996, Cape Fear: </strong></br>One of two storms to bring hurricane-force winds to Fayetteville (Hazel was the other),
           fram ripped a path through central North Carolina and Virginia. With top sustained winds of 115 mph and a strom surge of
           12-feet, the rom caused heavy damge along the Southern coast. In-state damge topped $2.3 billion."></i>
 
-        <i class="floyd balloon" title="<img class= 'hurricane' src='images/floyd.JPG'>
+        <i class="floyd balloon" title="<img class= 'hurricane' src='images/floyd.JPG'></br>
+          <strong>Floyd, Sept. 16, 1999, Cape Fear:</strong></br>
         Floyd's effects were amplified by an earlier storm, Dennis, that dumped several inches of
         rain across eastern North Carolina. Floyd, which was a Category 4 storm at one point, dumped 18 to 24 inches of rain over
         a wide area. Nearly every river, including the Cape Fear, flooded. Damage totals neared $4.5 billion, with 57 killed."></i>
 
-        <i class="katrina balloon" title="<img class= 'hurricane' src='images/katrina.JPG'>
-          Katrina, Aug. 25, 2005, Hallandale Beach Fla,. and Buras-Triumph, La.: Floks forget that Katrian was a hurricane long
+        <i class="katrina balloon" title="<img class= 'hurricane' src='images/katrina.JPG'></br>
+          <strong>Katrina, Aug. 25, 2005, Hallandale Beach Fla,. and Buras-Triumph, La.: </strong></br>Floks forget that Katrian was a hurricane long
           before it swamped New Orleans. It crossed Florida, causing $2 billion in damage. The Gulf Coast bore most of the storms
           fury, with 125-mph winds and a 14-foot strom surge. Property damage was estimated at $81 billion, with a final death toll
           of 1,836 - the highest for any named hurricane."></i>
-        <i class="katrina2 balloon" title="<img class= 'hurricane' src='images/katrina.JPG'>"></i>
+        <i class="katrina2 balloon" title="<img class= 'hurricane' src='images/katrina.JPG'></br>
+          <strong>Katrina, Aug. 25, 2005, Hallandale Beach Fla,. and Buras-Triumph, La.: </strong></br>Floks forget that Katrian was a hurricane long
+          before it swamped New Orleans. It crossed Florida, causing $2 billion in damage. The Gulf Coast bore most of the storms
+          fury, with 125-mph winds and a 14-foot strom surge. Property damage was estimated at $81 billion, with a final death toll
+          of 1,836 - the highest for any named hurricane."></i>
+</div>
 
-    </div>
+<div id="power">
+
+  <h1>When the power goes out</h1>
+
+
+</div>
+
+
+
+</div>
+<div class="row">
+  <div id="emergency" class="col-md-4">
+    <h1>Emergency Contacts</h1>
+      <h3 style="border-bottom: 1px solid black; padding-bottom: 10px;">Cumberland County</h3>
+      <ul>
+      <li>Emergendy calls: 911</li>
+        <li>Hotline for assistance referrals:211</li>
+      <a href="https://public.coderedweb.com/CNE/59E9B9D4C2F1" target="_blank"><li> Register for Code Red Systems</li></a>
+        <li><strong>Cape Fear Valley Medical Center</strong></li>
+        <p>609-4000</p>
+        <span><li>Emergency Services</li>
+          <a href="https://www.facebook.com/CumberlandCountyNC911" target="_blank"><img id="facebook" src="images/facebook.png"></a>
+          <a href="https://twitter.com/Cumberland911" target="_blank"><img id="twitter" src="images/twitter.jpg"></a></span>
+            <li>City of Fayetteville</li>
+            <span><a href="https://www.facebook.com/cityoffayettevillegovernment" target="_blank"><img id="facebook" src="images/facebook.png"></a>
+            <a href="https://twitter.com/CityOfFayNC" target="_blank"><img id="twitter" src="images/twitter.jpg"></a></span>
+              <li>Cumberland County</li>
+              <span><a href="https://www.facebook.com/CumberlandNC" target="_blank"><img id="facebook" src="images/facebook.png"></a>
+              <a href="https://twitter.com/CumberlandNC" target="_blank"><img id="twitter" src="images/twitter.jpg"></a></span>
+                <li>Fayetteville Plice Department</li>
+                <span><a href="https://www.facebook.com/Fayetteville.Police" target="_blank"><img id="facebook" src="images/facebook.png"></a>
+                <a href="https://twitter.com/Fayettevillepd" target="_blank"><img id="twitter" src="images/twitter.jpg"></a></span>
+                <p>Sign up for <a href="http://bethebadge.com/" target="_blank">Police Alerts</a></p>
+                  <li>Sheriff's Office</li>
+                  <p>910-323-1500</p>
+                    <li>National Weather Service</li>
+                    <span><a href="https://www.facebook.com/US.NationalWeatherService.Raleigh.gov" target="_blank"><img id="facebook" src="images/facebook.png"></a>
+                    <a href="https://twitter.com/nwsraleigh" target="_blank"><img id="twitter" src="images/twitter.jpg"></a></span>
+                      <li>Fayetteville Observer</li>
+                      <span><a href="https://www.facebook.com/fayobserver" target="_blank"><img id="facebook" src="images/facebook.png"></a>
+                      <a href="https://twitter.com/fayobserver" target="_blank"><img id="twitter" src="images/twitter.jpg"></a></span>
+      </ul>
+
+          <h3 style="border-bottom: 1px solid black; padding-bottom: 10px;">Other Contacts</h3>
+          <ul>
+            <li>Bladen: 910-862-6761</li>
+            <li>Columbus: 910-640-6610</li>
+            <li>Harnett: 910-893-0630</li>
+            <li>Hoke: 910-875-4126</li>
+            <li>Lee: 919-718-4670</li>
+            <li id="lee">910-775-5531</li>
+            <li>Moore: 910-947-6317</li>
+            <li>Robeson: 910-671-3150</li>
+            <li>Sampson: 910-592-8996</li>
+            <li>Scotland: 910-276-1313</li>
+
+
+
+
+
+
+
+
+
+
+
+
+          </ul>
+
+
+
+  </div>
+</div>
+
+
+
+
+  </div>
   </div>
 
 

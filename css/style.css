@@ -1,20 +1,63 @@
+body{
+  background-color: #b4c3e0;
+}
+
+
 .container{
-    min-width: 800px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+
 }
 
 
 .holder{
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
+
+
+
+
+/*emergency side bar*/
+#emergency{
+  border-left: solid 1px black;
+  float: right;
+
+}
+
+#lee{
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+#facebook{
+  width: 10%;
+  height: 10%;
+}
+
+#twitter{
+  width: 15%;
+  height: 15%;
+}
+
+/*img in map*/
 .hurricane{
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
+  margin-left: 40px;
+  padding: 10px;
 }
 
 
+
+/*map*/
 .hazel, .connie, .donna, .donna2, .donna3, .camille, .diana, .hugo, .andrew, .andrew2, .fran, .floyd, .katrina, .katrina2{
     position: absolute;
     border-radius: 50%;
@@ -24,72 +67,72 @@
 
 
 .hazel{
-    top: 20%;
-    right: 38%;
+    top: 26%;
+    right: 42%;
 }
 
 .connie{
-    top: 18%;
-    right: 41%;
+    top: 23%;
+    right: 45%;
 }
 
 .donna{
-    top:18%;
-    right: 36%;
+    top:23%;
+    right: 39%;
 }
 
 .donna2{
-    top:49%;
-    right: 44%;
+    top:64%;
+    right: 47%;
 }
 
 .donna3{
-    top:46%;
+    top:59%;
     right: 47%;
 }
 
 .camille{
-    top: 32%;
+    top: 42%;
     right: 70%;
 }
 
 .diana{
-    top: 20%;
-    right: 35%;
+    top: 26%;
+    right: 40%;
 
 }
 
 .hugo{
-    top: 23%;
+    top: 30%;
     right: 41%;
 }
 
 .andrew{
-    top: 47%;
-    right: 41%;
+    top: 62%;
+    right: 44%;
 }
 
 .andrew2{
-    top: 33%;
+    top: 43%;
     right: 79%;
 }
 
 .fran{
-    top: 20%;
-    right: 33%;
+    top: 26%;
+    right: 37%;
 }
 
 .floyd{
-    top: 18%;
-    right: 39%;
+    top: 23%;
+    right: 43%;
 }
 
 .katrina{
-    top: 34%;
+    top: 44%;
     right: 70%;
 }
 
 .katrina2{
-    top: 45%;
-    right: 40%;
+    top: 56%;
+    right: 42%;
 }
