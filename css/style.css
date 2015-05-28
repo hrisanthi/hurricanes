@@ -1,5 +1,8 @@
 body{
   background-color: #b4c3e0;
+  @font-face {
+
+  }
 }
 
 
@@ -7,6 +10,7 @@ body{
     min-width: 300px;
     max-width: 1000px;
     background-color: white;
+    padding: 20px;
 
 }
 
@@ -17,25 +21,62 @@ body{
     position: relative;
 }
 
+.col-md-3{
+  width: 30%;
+}
+
+h1{
+  font-size: 30px;
+  color: #202757;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  border-bottom: 1px solid #a1a4bf;
+  padding-bottom: 10px;
+  color: #74779c;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+a{
+  color: #74779c;
+
+}
+
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+
+}
+
+
+#power{
+  border-top: 1px solid #a1a4bf;
+  padding-top: 10px;
+
+}
 
 
 
 
 /*emergency side bar*/
 #emergency{
-  border-left: solid 1px black;
+  border-left: solid 1px #a1a4bf;
   float: right;
 
 }
 
 #lee{
   list-style-type: none;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
-h1{
-  font-size: 30px;
-}
+
 
 #facebook{
   width: 10%;
@@ -46,6 +87,29 @@ h1{
   width: 15%;
   height: 15%;
 }
+
+ul li{
+  list-style-type: square;
+  margin-left: -15px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.power-list li{
+  list-style-type: none;
+}
+
+.power-list p{
+  line-height: 12px;
+  font-size: 12px;
+}
+
+
+
+
+
+
 
 /*img in map*/
 .hurricane{
