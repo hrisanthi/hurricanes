@@ -22,7 +22,7 @@ body{
 }
 
 .col-md-3{
-  width: 30%;
+  width: 31%;
 }
 
 h1{
@@ -91,14 +91,13 @@ p{
 ul li{
   list-style-type: square;
   margin-left: -15px;
+  padding-top:10px;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+
 }
 
-.power-list li{
-  list-style-type: none;
-}
 
 .power-list p{
   line-height: 12px;
@@ -106,7 +105,26 @@ ul li{
 }
 
 
+#footer{
+  border-top: 1px solid #a1a4bf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
 
+#chick{
+  margin-left: 20px;
+}
+
+#blog{
+  margin-left: 30px;
+}
+
+#social img{
+  width: 15%;
+  height: 15%;
+  margin: 5px;
+}
 
 
 
